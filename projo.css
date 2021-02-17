@@ -1,0 +1,46 @@
+body{
+  font-family: 'Sriracha', cursive;
+/* background-image: url(https://cdn.pixabay.com/photo/2018/03/16/04/40/grid-3230205__340.jpg); */
+background-image: url(https://cdn.pixabay.com/photo/2013/09/22/19/15/brick-wall-185086__340.jpg);
+  /* background-color:#8c001a; */
+  color: #000000;
+  text-align: justify;
+  /* border: 50px solid  #000000;
+  border-top: 10px solid #000000;
+  border-bottom: 25px solid #000000;
+ */
+
+}
+h1{
+    /* font-size: 30px; */
+    text-align: center;
+    /* padding-top: 2%; */
+}
+h2{
+  text-align: center;
+}
+p{
+    font-size: 18px;
+    /* color:#ffffff; */
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+ul{
+  text-align: justify;
+  padding-left: 31%;
+}
+ol{
+  text-align: justify;
+  padding-left: 31%;
+}
+
+form{
+
+
+
+}
+
+li{
+  font-size: 1.1em;
+}

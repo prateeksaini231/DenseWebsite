@@ -1,0 +1,53 @@
+html {
+	font-size: 20px;
+}
+#fo{
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 40px;
+    color: white;
+}
+#foot{
+    background-color: #0a0909;
+    height: 250px;
+    padding-top: 100px;
+    padding: 30px;
+    color: #7d7d7d;
+}
+.social-buttons a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 8px;
+}
+
+.social-buttons a::before{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg,#22a6b3,#30336b);
+  border-radius: 50%;
+  z-index: -1;
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover::before{
+  transform: scale(0);
+}
+
+.social-buttons a i{
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i{
+  background: linear-gradient(45deg,#22a6b3,#30336b);
+  -webkit-background-clip: text;
+  transform: scale(2.2);
+}
